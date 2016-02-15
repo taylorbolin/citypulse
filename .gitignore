@@ -11,3 +11,5 @@
 /log/*
 !/log/.keep
 /tmp
+
+#insightly API key = 827c2c4d-a6ed-418f-aa51-81011b727070

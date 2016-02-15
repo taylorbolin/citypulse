@@ -63,13 +63,13 @@ body {
     background-image: url("http://i.imgur.com/jEiBa98.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 28px;
-    width: 80px;
+    height: 45px;
+    width: 128px;
     padding: 0px;
     left: 0;
     margin: 0px 0px 0px 20px;
     position: absolute;
-    top: 20px
+    top: 25px
 }
 
 .nav-button-home-black {
