@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'contact' => 'main#contact'
   get 'about' => 'main#about'
   get 'privacy' => 'main#privacy'
+  get 'confirmation' => 'main#confirmation'
 
 
   # get 'main/index'
