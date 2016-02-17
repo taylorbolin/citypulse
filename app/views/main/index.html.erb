@@ -1,38 +1,41 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-
-  <title>CityPulse</title>
-  <!-- CSS 1  (main)-->
-  <link rel="stylesheet" media="all" src="/app/assets/stylesheets/main.css" data-turbolinks-track="true" />
-  <!-- JS 1 (main)-->
-  <script src="/app/assets/javascripts/script.js" data-turbolinks-track="true"></script>
-  <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="gc2dLepgdYYsMTsElIOt9iMV+uV6beb6OjMqFrt67jH2U8gQmQ02vh1s389alVYPSo9hXbKKiQQ9nNSojPXNXA==" />
-  <!-- CSS 2 -->
-  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Open+Sans:300,400">
-  <!-- JS 2 -->
-  <script src="/app/assets/javascripts/script2.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <!-- CSS 3 (sb)-->
-  <link rel="stylesheet" media="screen" href="/app/assets/stylesheets/sb.css" />
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <% @title="CityPulse" %>
+  <!-- CSS 1  -->
+  <link media="all" rel="stylesheet" src="/assets/styles1.self-b548079598235005f118022d59cfb7194e753474fa124113fad0e4d30c9a7291.css?body=1">
+  <!-- JS 1 -->
+  <script src="/assets/script1.self-e91231791fdf7840c46fc4bba4cc397c8c7a5dc5e465fbdb5e59f765501384e8.js?body=1"></script>
+  <!-- <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="gc2dLepgdYYsMTsElIOt9iMV+uV6beb6OjMqFrt67jH2U8gQmQ02vh1s389alVYPSo9hXbKKiQQ9nNSojPXNXA==" /> -->
+  <!-- Font Stuff -->
+  <link href="//brick.a.ssl.fastly.net/Open+Sans:300,400" rel="stylesheet">
+  <!-- Font Stuff -->
+  <script src="//use.typekit.net/kad8rcq.js">
+  </script>
+  <script>
+    try{Typekit.load({ async: true });}catch(e){}
+  </script>
+  <!-- CSS 2-->
+  <link href="/assets/styles2.self-9d127aac766d1a6bc9e1f1de390ffbb8f2590a184e3d28626228f81261c0c394.css?body=1" media="screen" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content=
+  "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+  name="viewport">
   <!-- Favicon -->
-  <link rel="icon" sizes="16x16 32x32 48x48 256x256" href="https://d1e48a0mk7d7st.cloudfront.net/assets/favicon-03244158763c34fd88598d53fdf4644a.ico">
-<!--   <meta property="og:title" content="CityPulse"/>
+  <link href=
+  "http://citypulseapp.com/assets/images/favicon.ico"
+  rel="icon" sizes="16x16 32x32 48x48 256x256">
+  <!--   <meta property="og:title" content="CityPulse"/>
     <meta name="description" property="og:description" content="Never get stuck with the bill, never leave a credit card behind, and never wait around to close your check. Get Dash today!"/>
   <meta name="keywords" content="Dash, Pay with Dash, pay by phone, Best Nyc, best restaurants in nyc, Mobile pay, Restaurant App, App for restaurants, iPhone Payment App, Android Payment App, Pay, Bars, Mobile Payments, Restaurants, NYC, New York, City, iPhone app, Android app, bill split, bill splitting, payments, mobile, easy, fast">
   <meta name="author" content="Dash Software, LLC.">
   <meta property="og:url" content="http://paywithdash.com"/> -->
-  <meta property="og:image" content="https://d1e48a0mk7d7st.cloudfront.net/assets/Dash_FB_Image1-01add8f9966480fdadca773083c590e7.jpg"/>
+  <!-- <meta property="og:image" content="https://d1e48a0mk7d7st.cloudfront.net/assets/Dash_FB_Image1-01add8f9966480fdadca773083c590e7.jpg"/>
   <meta property="og:image:width" content="903"/>
-  <meta property="og:image:height" content="903"/>
+  <meta property="og:image:height" content="903"/> -->
   <!-- <meta name="apple-itunes-app" content="app-id=677495265"> -->
-    
-<script>
+  <!-- <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -53,206 +56,260 @@ src="https://www.facebook.com/tr?id=887829737937598&ev=PageView&noscript=1"
 
      ga('create', 'UA-32339847-1', 'auto');
      ga('send', 'pageview');
-  </script>
-  <!-- CSS 4 -->
-  <link rel="stylesheet" media="screen" href="https://d1e48a0mk7d7st.cloudfront.net/assets/carousel-23ee9524721210079972aad69d28d8a9.css" />
-
+  </script> -->
+  <!-- CSS 6 -->
+  <link href= "/assets/styles6.self-361413903bc669e21b711c5f0a43c9a3064453aa35f4b1cd181a3ca7b32f7017.css?body=1" media="screen" rel="stylesheet">
 </head>
 <body class="">
-  <div id="dialog_background" class="dialog-background"></div>
-  <div id="dialog_container" class="dialog-container"></div>
+  <div class="dialog-background" id="dialog_background">
+  </div>
+  <div class="dialog-container" id="dialog_container">
+  </div>
   <div class="sb-slidebar sb-left">
-  <div class="side-bar-container">
-    <ul id="side_bar">
-      <!-- <li class="dash-link-button" style="  margin-left: 10px;height: 40px;line-height: 40px;  width: 90%;  text-align: center;"><a href="/download">Download</a></li> -->
-      <li class="side-nav-button"data-nav-active><a href="/">CityPulse</a></li>
-      <li class="side-nav-button"><a href="/about">About</a></li>
-      <li class="side-nav-button"><a href="/contact">Contact</a></li>
-      <li class="side-nav-button"><a href="/privacy">Privacy Policy</a></li>
-      <!-- <li class="side-nav-button" ><a href="/contact">Contact</a></li>
+    <div class="side-bar-container">
+      <ul id="side_bar">
+        <!-- <li class="dash-link-button" style="  margin-left: 10px;height: 40px;line-height: 40px;  width: 90%;  text-align: center;"><a href="/download">Download</a></li> -->
+        <li class="side-nav-button" data-nav-active="">
+          <a href="/">CityPulse</a>
+        </li>
+        <li class="side-nav-button">
+          <a href="/about">About</a>
+        </li>
+        <li class="side-nav-button">
+          <a href="/contact">Contact</a>
+        </li>
+        <li class="side-nav-button">
+          <a href="/privacy">Privacy Policy</a>
+        </li>
+        <!-- <li class="side-nav-button" ><a href="/contact">Contact</a></li>
       <li class="side-nav-button"><a href="/careers">Careers</a></li>
       <li class="side-nav-button"><a href="/tos">Terms Of Service</a></li>
       <li class="side-nav-button"><a href="/team">Team</a></li> -->
-      <!-- <li>
+        <!-- <li>
         <div class="footer-icons-container" style="position: relative;">
           <a href="https://www.facebook.com/paywithdash" target="_blank"><div class="footer-icon footer-icon-facebook"></div></a>
           <a href="https://twitter.com/paywithdash" target="_blank"><div class="footer-icon footer-icon-twitter"></div></a>
           <a href="https://instagram.com/eatdrinkdash/" target="_blank"><div class="footer-icon footer-icon-instagram"></div></a>
         </div>
       </li> -->
-    </ul>
+      </ul>
+    </div>
   </div>
-</div>
-<div class="nav-bar sb-slide  ">
-  <div class="nav-content-container ">
-    <div class="nav-menu sb-toggle-left"></div>
-    <a href="/">
-      <div class="nav-button nav-button-home"></div>
-    </a>
-    <a href="/">
-      <div class="nav-button nav-button-desktop" data-nav-active>CityPulse</div>
-    </a>
-    <a href="/about">
-      <div class="nav-button nav-button-desktop" >About</div>
-    </a>
-    <a href="/contact">
-      <div class="nav-button nav-button-desktop" >Contact</div>
-    </a>
-    <!-- <a href="/accept">
+  <div class="nav-bar sb-slide">
+    <div class="nav-content-container">
+      <div class="nav-menu sb-toggle-left">
+      </div>
+      <a href="/">
+      <div class="nav-button nav-button-home">
+      </div></a> <a href="/">
+      <div class="nav-button nav-button-desktop" data-nav-active="">
+        CityPulse
+      </div></a> <a href="/about">
+      <div class="nav-button nav-button-desktop">
+        About
+      </div></a> <a href="/contact">
+      <div class="nav-button nav-button-desktop">
+        Contact
+      </div></a> <!-- <a href="/accept">
       <div class="nav-button nav-button-desktop" >Accept Dash</div>
     </a>
     <a href="/download">
       <div class="nav-button-desktop nav-button-download">Download</div>
     </a> -->
+    </div>
   </div>
-</div>
-
   <div id="sb-site">
-    <div  class="content">
+    <div class="content">
       <div class="section" style="position:relative;">
-  <a class="section-anchor" href="#/welcome"></a>
-
-  <div class="center-y carousel-pager carousel-pager-left" data-dash-pager="slickPrev"></div>
-  <div class="center-y carousel-pager carousel-pager-right" data-dash-pager="slickNext"></div>
-  <div id="carousel_container" class="carousel-container">
-    <div class="header header-fav">
-    <div class="center-y">
-        <div class="section-text section-text-header section-text-title section-text-title-white" style="">
-          <div class="header-title">Data Driven.<div></div></div>
-          <div class="header-detail">Our reporting platform gives you answers</div>
-          <div class="header-detail">to critical business questions.</div>
-          <div class="download-icons-container">
-
+        <a class="section-anchor" href="#/welcome"></a>
+        <div class="center-y carousel-pager carousel-pager-left"
+        data-dash-pager="slickPrev">
+        </div>
+        <div class="center-y carousel-pager carousel-pager-right"
+        data-dash-pager="slickNext">
+        </div>
+        <div class="carousel-container" id="carousel_container">
+          <div class="header header-fav">
+            <div class="center-y">
+              <div class=
+              "section-text section-text-header section-text-title section-text-title-white"
+              style="">
+                <div class="header-title">
+                  Data Driven.
+                  <div>
+                  </div>
+                </div>
+                <div class="header-detail">
+                  Our reporting platform gives you answers<br> to critical business
+                  questions.
+                </div>
+                <!-- <div class="download-icons-container">
+          </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="header header-salad">
+            <div class="center-y">
+              <div class=
+              "section-text section-text-header section-text-title section-text-title-white"
+              style="">
+                <div class="header-title">
+                  Small Device. Big Benefits.
+                  <div>
+                  </div>
+                </div>
+                <div class="header-detail">
+                  Our sensor counts the number of people that enter<br> and exit
+                  your store, providing actionable insight.
+                </div>
+                <!-- <div class="download-icons-container">
+          </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="header header-wrist">
+            <div class="center-y">
+              <div class=
+              "section-text section-text-header section-text-title section-text-title-white"
+              style="">
+                <div class="header-title">
+                  Connect with Customers
+                  <div>
+                  </div>
+                </div>
+                <div class="header-detail">
+                  95% of smartphone 95% of smartphone users search<br> for bars and
+                  restaurants before going out.
+                </div>
+                <!-- <div class="download-icons-container">
+          </div> -->
+              </div>
+            </div>
           </div>
         </div>
-    </div>
-</div>
-
-    <div class="header header-salad">
-    <div class="center-y">
-        <div class="section-text section-text-header section-text-title section-text-title-white" style="">
-          <div class="header-title">Small Device. Big Benefits.<div></div></div>
-          <div class="header-detail">Our sensor counts the number of people that enter</div>
-          <div class="header-detail">and exit your store, providing actionable insight.</div>
-          <div class="download-icons-container">
-
+      </div>
+      <div class="section section-home section-what-is">
+        <a class="section-anchor" href="#/what-is"></a>
+        <div class="section-text center-y section-text-right">
+          <div class="section-text-fade-container">
+            <div class="section-text-container section-text-home">
+              <div class="section-text-title">
+                Hey, We’re CityPulse
+              </div>
+              <div class="section-text-detail">
+                CityPulse helps you understand your foot traffic, improve your
+                bottom line, and connect with relevant customers.
+              </div>
+            </div>
           </div>
         </div>
-    </div>
-</div>
-
-    <div class="header header-wrist">
-    <div class="center-y">
-        <div class="section-text section-text-header section-text-title section-text-title-white" style="">
-          <div class="header-title">Connect<div></div></div>
-          <div class="header-detail">95% of smartphone</div>
-          <div class="download-icons-container">
-
+      </div>
+      <div class="section section-home section-never-again">
+        <a class="section-anchor" href="#/feel-the-vibe"></a>
+        <div class="section-text center-y section-text-left">
+          <div class="section-text-fade-container">
+            <div class="section-text-container section-text-home">
+              <div class="section-text-title">
+                Divide and Conquer
+              </div>
+              <div class="section-text-detail">
+                Targeted ads based on searches, location and demographics.
+              </div>
+            </div>
           </div>
         </div>
-    </div>
-</div>
-
-  </div>
-</div>
-<div class="section section-home section-what-is">
-  <a class="section-anchor" href="#/what-is"></a>
-
-  <div class="section-text center-y  section-text-right">
-    <div class="section-text-fade-container">
-      <div class="section-text-container section-text-home">
-        <div class="section-text-title">Hey, We’re CityPulse</div>
-        <div class="section-text-detail">CityPulse helps you understand your foot traffic, improve your bottom line, and connect with relevant customers.
+      </div>
+      <div class="section section-home" id="section_vibe">
+        <a class="section-anchor" href="#/feel-the-vibe"></a>
+        <div class="section section-venue-vibe">
+        </div>
+        <div class="section-text center-y section-text-right" style=
+        "z-index:2;">
+          <div class="section-text-fade-container">
+            <div class="section-text-container section-text-home">
+              <div class="section-text-title">
+                Discover Something Good
+              </div>
+              <div class="section-text-detail">
+                Busy or slow - someone is always looking for your type of vibe!
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<div class="section section-home section-never-again">
-  <a class="section-anchor" href="#/feel-the-vibe"></a>
-
-  <div class="section-text center-y  section-text-left">
-    <div class="section-text-fade-container">
-      <div class="section-text-container section-text-home">
-        <div class="section-text-title">Divide and Conquer</div>
-        <div class="section-text-detail">Targeted ads based on searches, location and demographics.
+      <div class="section-cities">
+        <a class="section-anchor" href="#/bars-and-resturants"></a>
+        <div style="margin:40px 0px;">
+          CityPulse is available in
+        </div>
+        <div class="section-city-container">
+          <a href="/venues/newyork">
+          <div class="section-city section-city-ny">
+          </div>
+          <div class="section-city-name">
+            Gotham City
+          </div></a>
+        </div>
+        <div class="section-city-container">
+          <a href="/venues/chicago">
+          <div class="section-city section-city-chi">
+          </div>
+          <div class="section-city-name">
+            Mayberry
+          </div></a>
+        </div>
+        <div class="section-city-container">
+          <a href="/venues/dc">
+          <div class="section-city section-city-dc">
+          </div>
+          <div class="section-city-name">
+            Bedrock
+          </div></a>
+        </div>
+        <div class="section-city-container">
+          <a href="/venues/atlanta">
+          <div class="section-city section-city-atlanta">
+          </div>
+          <div class="section-city-name">
+            Metropolis
+          </div></a>
+        </div>
+        <div class="section-city-container">
+          <a href="/venues/universities">
+          <div class="section-city section-city-univ">
+          </div>
+          <div class="section-city-name">
+            Springfield
+          </div></a>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<div id="section_vibe" class="section section-home">
-  <a class="section-anchor" href="#/feel-the-vibe"></a>
-
-  <div class="section section-venue-vibe">
-  </div>
-  <div class="section-text center-y section-text-right" style="z-index:2;">
-    <div class="section-text-fade-container">
-      <div class="section-text-container section-text-home">
-        <div class="section-text-title">Discover Something Good</div>
-        <div class="section-text-detail">Busy or slow - someone is always looking for your type of vibe!
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section-cities">
-  <a class="section-anchor" href="#/bars-and-resturants"></a>
-
-  <div style="margin:40px 0px;">CityPulse is available in</div>
-  <div class="section-city-container">
-    <a href="/venues/newyork">
-      <div class="section-city section-city-ny"></div>
-      <div class="section-city-name">Gotham City</div>
-    </a>
-  </div>
-  <div class="section-city-container">
-    <a href="/venues/chicago">
-      <div class="section-city section-city-chi"></div>
-      <div class="section-city-name">Mayberry</div>
-    </a>
-  </div>
-  <div class="section-city-container">
-    <a href="/venues/dc">
-      <div class="section-city section-city-dc"></div>
-      <div class="section-city-name">Bedrock</div>
-    </a>
-  </div>
-  <div class="section-city-container">
-    <a href="/venues/atlanta">
-      <div class="section-city section-city-atlanta"></div>
-      <div class="section-city-name">Metropolis</div>
-    </a>
-  </div>
-  <div class="section-city-container">
-    <a href="/venues/universities">
-      <div class="section-city section-city-univ"></div>
-      <div class="section-city-name">Springfield, USA</div>
-    </a>
-  </div>
-</div>
-<div class="section section-accept-dash" style="z-index:2;">
-  <a class="section-anchor" href="#/accept-dash"></a>
-
-  <div class="section-text center-y  section-text-title section-text-title-white" style="text-align:center;">
-    <div class="accept-container">
-      <div class="accept-text">
-        <div>Want to bring CityPulse to your bar or restaurant?</div>
-        <div>We thought you’d never ask.</div>
-
-      </div>
-      <div class="accept-button-container">
-        <!-- <a href="/accept">
+      <div class="section section-accept-dash" style="z-index:2;">
+        <a class="section-anchor" href="#/accept-dash"></a>
+        <div class=
+        "section-text center-y section-text-title section-text-title-white"
+        style="text-align:center;">
+          <div class="accept-container">
+            <div class="accept-text">
+              <div>
+                Want to bring CityPulse to your bar or restaurant?
+              </div>
+              <div>
+                We thought you’d never ask.
+              </div>
+            </div>
+            <div class="accept-button-container">
+              <!-- <a href="/accept">
           <div class="accept-button accept-button-learn-more">Learn more</div>
         </a> -->
-        <a href="/contact">
-          <div class="accept-button accept-button-accept">Contact</div>
-        </a>
+               <a href="/contact">
+              <div class="accept-button accept-button-accept">
+                Contact
+              </div></a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-<!-- <div style="height:0px;">
+      <!-- <div style="height:0px;">
   <div class="nav-button-home" style="height:0px;"></div>
   <div id="download_container">
     <div id="download_desktop">
@@ -273,7 +330,7 @@ src="https://www.facebook.com/tr?id=887829737937598&ev=PageView&noscript=1"
     </a>
   </div>
 </div> -->
-<script type="text/javascript">
+      <!--<script type="text/javascript">
 //     $("#download_number").mask("(999) 999-9999");
 //     (function (b, r, a, n, c, h, _, s, d, k) {
 //         if (!b[n] || !b[n]._q) {
@@ -329,24 +386,22 @@ src="https://www.facebook.com/tr?id=887829737937598&ev=PageView&noscript=1"
 //             }
 //         });
 //     });
-// </script>
-
-<script type="text/javascript">
-    $(function () {
-        var section = $('.section');
-        var carouselPager = $('.carousel-pager');
-        var carouselContainer = $('#carousel_container');
-        var sectionCities = $('.section-cities');
-        var sectionVenueVibe = $('.section-venue-vibe');
-        var sectionCityContainer = $('.section-city-container');
-
-        setTimeout(function () {
+// </script> -->
+      <script type="text/javascript">
+            $(function () {
+            var section = $('.section');
+            var carouselPager = $('.carousel-pager');
+            var carouselContainer = $('#carousel_container');
+            var sectionCities = $('.section-cities');
+            var sectionVenueVibe = $('.section-venue-vibe');
+            var sectionCityContainer = $('.section-city-container');
+            setTimeout(function () {
             $(carouselContainer.find('.section-text')[currentPage]).addClass('animated fadeInUp')
-        }, 300);
+            }, 300);
 
-        Dash.initAll(initSectionListener, initScroll, $('.section-what-is'));
+            Dash.initAll(initSectionListener, initScroll, $('.section-what-is'));
 
-        function initOnScreen() {
+            function initOnScreen() {
             sectionVenueVibe.onScreen({
                 container: window,
                 direction: 'vertical',
@@ -373,18 +428,18 @@ src="https://www.facebook.com/tr?id=887829737937598&ev=PageView&noscript=1"
                 throttle: 50,
                 debug: false
             });
-        }
+            }
 
-        function initSectionListener() {
+            function initSectionListener() {
             initCarousel();
             carouselContainer.each(function (index, element) {
                 $(element).find('.slick-list').height(section.height());
                 $(element).find('.slick-track').height(section.height());
             });
             initOnScreen();
-        }
+            }
 
-        function initScroll(scrollPos, headerHeight) {
+            function initScroll(scrollPos, headerHeight) {
             var pagerContainer = carouselPager.position().top;
 
             if (scrollPos > 0 && scrollPos > pagerContainer - (headerHeight * 3)) {
@@ -398,12 +453,12 @@ src="https://www.facebook.com/tr?id=887829737937598&ev=PageView&noscript=1"
                     $(carouselContainer.find('.section-text')[currentPage]).removeClass('animated fadeOut').addClass('animated fadeIn');
                 }
             }
-        }
+            }
 
-        var pager;
-        var currentPage = 0;
+            var pager;
+            var currentPage = 0;
 
-        function initCarousel() {
+            function initCarousel() {
             if (!pager) {
                 pager = carouselContainer.slick({
                     infinite: true,
@@ -435,14 +490,12 @@ src="https://www.facebook.com/tr?id=887829737937598&ev=PageView&noscript=1"
                     $(carouselContainer.find('.header')[currentSlide]).find('.section-text').addClass('animated fadeInUp');
                 });
             }
-        }
-    });
-</script>
-
-    </div>
-  <footer >
-  <div id="footer" class="footer">
-     <!--    <div class="footer-apps-container">
+            }
+            });
+      </script> <!-- </div> -->
+      <footer>
+        <div class="footer" id="footer">
+          <!--    <div class="footer-apps-container">
           <a href="https://itunes.apple.com/us/app/dash-pay-on-your-phone-at/id677495265" target="_blank"><div class="footer-app-icon footer-app-icon-apple"></div></a>
           <a href="https://play.google.com/store/apps/details?id=me.dashwith" target="_blank"><div class="footer-app-icon footer-app-icon-google"></div></a>
         </div>
@@ -450,20 +503,28 @@ src="https://www.facebook.com/tr?id=887829737937598&ev=PageView&noscript=1"
             <a href="https://www.facebook.com/paywithdash" target="_blank"><div class="footer-icon footer-icon-facebook"></div></a>
             <a href="https://twitter.com/paywithdash" target="_blank"><div class="footer-icon footer-icon-twitter"></div></a>
             <a href="https://instagram.com/paywithdash/" target="_blank"><div class="footer-icon footer-icon-instagram"></div></a>
-        </div>   -->      
+        </div>   -->
           <ul class="footer-links-container">
-            <li class="footer-link"><a href="/about">ABOUT</a></li>
-            <li class="footer-circle"></li>
-            <li class="footer-link"><a href="/contact">CONTACT</a></li>
-            <li class="footer-circle"></li>
-            <li class="footer-link"><a href="/privacy">PRIVACY POLICY</a></li>
+            <li class="footer-link">
+              <a href="/about">ABOUT</a>
+            </li>
+            <li class="footer-circle">
+            </li>
+            <li class="footer-link">
+              <a href="/contact">CONTACT</a>
+            </li>
+            <li class="footer-circle">
+            </li>
+            <li class="footer-link">
+              <a href="/privacy">PRIVACY POLICY</a>
+            </li>
             <!-- <li class="footer-circle"></li>
             <li class="footer-link"><a href="/team">OUR TEAM</a></li> -->
           </ul>
+        </div>
+      </footer>
+      <!-- </div> -->
     </div>
-</footer>
-
   </div>
 </body>
-  
 </html>

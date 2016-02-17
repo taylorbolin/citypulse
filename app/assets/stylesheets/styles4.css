@@ -1,0 +1,36 @@
+.confirmation-title-main {
+    font-family: "museo-sans-rounded";
+    font-weight: 100;
+    font-size: 72px;
+    padding-bottom: 50px
+}
+
+.confirmation-sub {
+    font-family: "museo-sans-rounded";
+    font-weight: 300;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 20px
+}
+
+.confirmation-title-sub {
+    font-size: 26px;
+    padding: 20px
+}
+
+.confirmation-sub-detail {
+    font-family: "museo-sans-rounded";
+    font-weight: 100;
+    line-height: 28px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.confirmation-icons-container .download-icon {
+    margin-left: 0px
+}
+
+/*a {
+    color: #00c484
+}*/

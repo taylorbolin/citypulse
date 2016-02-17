@@ -60,7 +60,7 @@ body {
 }
 
 .nav-button-home {
-    background-image: url("http://i.imgur.com/jEiBa98.png");
+    background-image: url("http://i.imgur.com/cPVllSS.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 45px;
@@ -73,7 +73,7 @@ body {
 }
 
 .nav-button-home-black {
-    background-image: url("http://i.imgur.com/xTGv0EJ.png")
+    background-image: url("http://i.imgur.com/3YRwCGO.png")
 }
 
 .nav-button-download {
@@ -513,14 +513,6 @@ body {
         width: 0px
     }
 }
-
-
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
-*/
 
 .animated {
     -webkit-animation-duration: 1s;
@@ -3682,25 +3674,25 @@ Copyright (c) 2015 Daniel Eden
 
 @-webkit-keyframes logo-fade-out {
     100% {
-        background-image: url("http://i.imgur.com/jEiBa98.png")
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/LogoWhite@2X-e6431c30f7aeb894c567648e4c1c73ed.png")
     }
 }
 
 @-moz-keyframes logo-fade-out {
     100% {
-        background-image: url("http://i.imgur.com/jEiBa98.png")
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/LogoWhite@2X-e6431c30f7aeb894c567648e4c1c73ed.png")
     }
 }
 
 @-o-keyframes logo-fade-out {
     100% {
-        background-image: url("http://i.imgur.com/jEiBa98.png")
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/LogoWhite@2X-e6431c30f7aeb894c567648e4c1c73ed.png")
     }
 }
 
 @keyframes logo-fade-out {
     100% {
-        background-image: url("http://i.imgur.com/jEiBa98.png")
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/LogoWhite@2X-e6431c30f7aeb894c567648e4c1c73ed.png")
     }
 }
 
@@ -3881,7 +3873,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .background-animated-in .nav-button-home {
-    background-image: url("http://i.imgur.com/xTGv0EJ.png")
+    background-image: url("http://i.imgur.com/3YRwCGO.png")
 }
 
 .background-animated-out {

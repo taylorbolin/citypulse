@@ -4615,7 +4615,7 @@ var Dash = {};
         if (e) {
             var o = i(e).offset().top,
                 s = i(n).scrollTop();
-            o > 0 && (console.log("value " + (o - r)), s > o - r ? i(".nav-content-container").hasClass("background-animated-in") || i(".nav-content-container").removeClass("background-animated-out").addClass("background-animated-in") : i(".nav-content-container").hasClass("background-animated-in") && i(".nav-content-container").removeClass("background-animated-in").addClass("background-animated-out"), t && t(s, r))
+            o > 0 && ("value " + (o - r)), s > o - r ? i(".nav-content-container").hasClass("background-animated-in") || i(".nav-content-container").removeClass("background-animated-out").addClass("background-animated-in") : i(".nav-content-container").hasClass("background-animated-in") && i(".nav-content-container").removeClass("background-animated-in").addClass("background-animated-out"), t && t(s, r)
         }
     }
     var r = i(".nav-bar").height(),

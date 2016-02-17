@@ -1,0 +1,147 @@
+.carousel-container {
+    height: 100%
+}
+
+.header {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%
+}
+
+.header-wrist {
+    background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/shots_small-5b213689a2754c3f8be4b86a9363cc77.jpg")
+}
+
+.header-salad {
+    background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/refineryscreenshot_small-c6fb7305858ef4955bc202ed277709a2.jpg")
+}
+
+.header-food {
+    background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/abovethefold_messyfood_small-123ca805ad051babe0ab89d98194cd18.jpg")
+}
+
+.header-fav {
+    background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/mainheaderimage_small-fcd7906ba2735b089e37f2488ed60f92.jpg")
+}
+
+@media only screen and (min-width: 601px) {
+    .header-title {
+        margin-left: -4px
+    }
+    .header-fav .section-text {
+        margin-left: 10%
+    }
+    .header-salad .section-text {
+        margin-left: 10%;
+        margin-top: -15px
+    }
+    .header-wrist .section-text {
+        margin-right: 15%;
+        text-align: left;
+        position: absolute;
+        right: 0px;
+        margin-top: -121px
+    }
+}
+
+.header-glass {
+    background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/Rochelles@2X-be1637fd719593b07ef939daeaf60d64.jpg")
+}
+
+.carousel-pager-container {
+    top: 50%;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    width: 100%
+}
+
+.carousel-pager {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    z-index: 1
+}
+
+.carousel-pager-right {
+    right: 20px;
+    background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/ArrowRight@2X-034fb576b0700b248754d0fa2bb1437b.png")
+}
+
+.carousel-pager-left {
+    left: 20px;
+    background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/ArrowLeft@2X-8d2b7e80af0f08c0dc12b4d0bc322980.png")
+}
+
+#download_mobile {
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer
+}
+
+#download_mobile a {
+    display: block
+}
+
+@media only screen and (max-width: 600px) {
+    .header .section-text {
+        font-size: 34px
+    }
+    .header .section-text-title {
+        font-weight: 100
+    }
+    .header-fav .section-text {
+        text-align: center
+    }
+    .header-salad .section-text {
+        text-align: center
+    }
+    .header-wrist .section-text {
+        text-align: center;
+        color: #ffffff
+    }
+    #download_mobile {
+        display: inline-block
+    }
+    #download_desktop {
+        display: none
+    }
+    .header-wrist {
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/ShotsHeaderImage@2Xm-ef62d2df994429dda777ab7ef4f34dcf.jpg")
+    }
+    .header-salad {
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/AboveTheFold3@2Xm-a37b198e587c0c3ddf21304e8ab51184.jpg")
+    }
+    .header-food {
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/abovethefold_messyfood_2x-cf00d55fac812907b38039b0f9d30566.jpg")
+    }
+    .header-fav {
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/AboveTheFold@2Xm-f33b89633a21bc55e7e559ed3aa89cc2.jpg")
+    }
+    .header-glass {
+        background-image: url("https://d1e48a0mk7d7st.cloudfront.net/assets/Rochelles@2X-be1637fd719593b07ef939daeaf60d64.jpg")
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header .section-text {
+        font-size: 28px
+    }
+}
+
+.header-detail {
+    font-size: 26px
+}

@@ -1,21 +1,31 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-
-  <title>About | CityPulse</title>
-  <link rel="stylesheet" media="all" href="https://d1e48a0mk7d7st.cloudfront.net/assets/application-cd96c29c9be718b735cecd9e39e7cf3d.css" data-turbolinks-track="true" />
-  <script src="https://d1e48a0mk7d7st.cloudfront.net/assets/application-251400551dde21b749818fe539f1d8f4.js" data-turbolinks-track="true"></script>
+  <% @title="About | CityPulse" %>
+  <!-- CSS 1 -->
+  <link href="/app/assets/stylesheets/styles1.css" media="all" rel="stylesheet">
+  <!-- JS 1 -->
+  <script src="/app/assets/javascripts/script1.js"></script>
   <!-- <meta name="csrf-param" content="authenticity_token" />
 <meta name="csrf-token" content="L0UYCIu0Gs2hcxjoNJGsd5JJd+fEBkuqkKVPa8U7t1RY2001+NlZ9ZAu/CP6h1eO+9PsXwzhJFSXCrHV8rSUOQ==" /> -->
-  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Open+Sans:300,400">
-  <script src="//use.typekit.net/kad8rcq.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <link rel="stylesheet" media="screen" href="https://d1e48a0mk7d7st.cloudfront.net/assets/override-6e4e464bc15985f0babf10a49a333f44.css" />
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-  <link rel="icon" sizes="16x16 32x32 48x48 256x256" href="https://d1e48a0mk7d7st.cloudfront.net/assets/favicon-03244158763c34fd88598d53fdf4644a.ico">
+  <!-- Font Stuff -->
+  <link href="//brick.a.ssl.fastly.net/Open+Sans:300,400" rel="stylesheet">
+  <!-- Font Stuff -->
+  <script src="//use.typekit.net/kad8rcq.js">
+  </script>
+  <script>
+  try{Typekit.load({ async: true });}catch(e){}
+  </script>
+  <!-- CSS 2 -->
+  <link href="/app/assets/stylesheets/styles2.css" media="screen" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content=
+  "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+  name="viewport">
+  <!-- Favicon -->
+  <link href=
+  "http://citypulseapp.com/assets/images/favicon.ico"
+  rel="icon" sizes="16x16 32x32 48x48 256x256">
   <!-- <meta property="og:title" content="Dash | Download Dash"/>
   <meta name="keywords" content="Dash, Pay with Dash, pay by phone, Best Nyc, best restaurants in nyc, Mobile pay, Restaurant App, App for restaurants, iPhone Payment App, Android Payment App, Pay, Bars, Mobile Payments, Restaurants, NYC, New York, City, iPhone app, Android app, bill split, bill splitting, payments, mobile, easy, fast">
   <meta name="author" content="Dash Software, LLC.">
@@ -24,7 +34,7 @@
   <meta property="og:image:width" content="903"/>
   <meta property="og:image:height" content="903"/> -->
   <!-- <meta name="apple-itunes-app" content="app-id=677495265"> -->
-    <!--  Facebook Pixel Code
+  <!--  Facebook Pixel Code
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -47,86 +57,105 @@ End Facebook Pixel Code
      ga('create', 'UA-32339847-1', 'auto');
      ga('send', 'pageview');
   </script> -->
-  <link rel="stylesheet" media="screen" href="https://d1e48a0mk7d7st.cloudfront.net/assets/about-3523af53b02d2aff7646793c1fd35a13.css" />
-
+  <!-- CSS 3 -->
+  <link href="/app/assets/stylesheets/styles3.css" media="screen" rel="stylesheet">
 </head>
 <body class="">
-  <div id="dialog_background" class="dialog-background"></div>
-  <div id="dialog_container" class="dialog-container"></div>
+  <div class="dialog-background" id="dialog_background">
+  </div>
+  <div class="dialog-container" id="dialog_container">
+  </div>
   <div class="sb-slidebar sb-left">
-  <div class="side-bar-container">
-    <ul id="side_bar">
-      <!-- <li class="dash-link-button" style="  margin-left: 10px;height: 40px;line-height: 40px;  width: 90%;  text-align: center;"><a href="/download">Download</a></li> -->
-      <li class="side-nav-button"><a href="/">CityPulse</a></li>
-      <li class="side-nav-button"><a href="/about">About</a></li>
-      <li class="side-nav-button"data-nav-active><a href="/contact">Contact</a></li>
-      <li class="side-nav-button"><a href="/privacy">Privacy Policy</a></li>
-    <!--   <li class="side-nav-button" ><a href="/contact">Contact</a></li>
+    <div class="side-bar-container">
+      <ul id="side_bar">
+        <!-- <li class="dash-link-button" style="  margin-left: 10px;height: 40px;line-height: 40px;  width: 90%;  text-align: center;"><a href="/download">Download</a></li> -->
+        <li class="side-nav-button">
+          <a href="/">CityPulse</a>
+        </li>
+        <li class="side-nav-button">
+          <a href="/about">About</a>
+        </li>
+        <li class="side-nav-button" data-nav-active="">
+          <a href="/contact">Contact</a>
+        </li>
+        <li class="side-nav-button">
+          <a href="/privacy">Privacy Policy</a>
+        </li>
+        <!--   <li class="side-nav-button" ><a href="/contact">Contact</a></li>
       <li class="side-nav-button"><a href="/careers">Careers</a></li>
       <li class="side-nav-button"><a href="/tos">Terms Of Service</a></li>
       <li class="side-nav-button"><a href="/team">Team</a></li> -->
-   <!--    <li>
+        <!--    <li>
         <div class="footer-icons-container" style="position: relative;">
           <a href="https://www.facebook.com/paywithdash" target="_blank"><div class="footer-icon footer-icon-facebook"></div></a>
           <a href="https://twitter.com/paywithdash" target="_blank"><div class="footer-icon footer-icon-twitter"></div></a>
           <a href="https://instagram.com/eatdrinkdash/" target="_blank"><div class="footer-icon footer-icon-instagram"></div></a>
         </div>
       </li> -->
-    </ul>
+      </ul>
+    </div>
   </div>
-</div>
-<div class="nav-bar sb-slide  ">
-  <div class="nav-content-container ">
-    <div class="nav-menu sb-toggle-left"></div>
-    <a href="/">
-      <div class="nav-button nav-button-home"></div>
-    </a>
-    <a href="/">
-      <div class="nav-button nav-button-desktop" >CityPulse</div>
-    </a>
-    <a href="/about">
-      <div class="nav-button nav-button-desktop"data-nav-active >About</div>
-    </a>
-    <a href="/contact">
-      <div class="nav-button nav-button-desktop" >Contact</div>
-    </a>
-   <!--  <a href="/privacy">
+  <div class="nav-bar sb-slide">
+    <div class="nav-content-container">
+      <div class="nav-menu sb-toggle-left">
+      </div>
+      <a href="/">
+      <div class="nav-button nav-button-home">
+      </div></a> <a href="/">
+      <div class="nav-button nav-button-desktop">
+        CityPulse
+      </div></a> <a href="/about">
+      <div class="nav-button nav-button-desktop" data-nav-active="">
+        About
+      </div></a> <a href="/contact">
+      <div class="nav-button nav-button-desktop">
+        Contact
+      </div></a> <!--  <a href="/privacy">
       <div class="nav-button nav-button-desktop" >Privacy Policy</div>
     </a>
     <a href="/download">
       <div class="nav-button-desktop nav-button-download">Download</div>
     </a>
- -->  </div>
-</div>
-
+ -->
+    </div>
+  </div>
   <div id="sb-site">
-    <div  class="content">
+    <div class="content">
       <div class="section section-about">
-           <a class="section-anchor" href="#/about"></a>
-           <div class="section-text center-y section-text-title-white" style="text-align:center;">
-               <div id="about_title_holder"></div>
-               <div class="section-text-fade-container">
-                   <div class="section-text-container" style="text-align:center;">
-                     <div class="secondary-title-main">NICE TO MEET YOU </div>
-                     <div class="secondary-title-sub">We connect the right customer with the right business at the right time.</div>
-                       <div class="secondary-sub-container">
-                           <div class="secondary-sub-detail">
-                            <p>
-                              People want to know how busy places are and to receive promotions in real-time.
-                              Businesses want to know their customer flow and send promotions in real-time.
-                              We create a win-win by sharing foot traffic information and connecting customers with businesses through a mobile app.
-                              People looking for a wild night out can find busy places.
-                              People looking for a place to talk and catch up can find chill locations.
-                              Businesses can send these people deals and alerts on the go – increasing their chances of customer conversion.
-                              Businesses can gauge the performance of their promotions by looking at changes in their customer flow over time.
-                            </p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-       <!-- <div class="section-opportunities section-join">
+        <a class="section-anchor" href="#/about"></a>
+        <div class="section-text center-y section-text-title-white" style=
+        "text-align:center;">
+          <div id="about_title_holder">
+          </div>
+          <div class="section-text-fade-container">
+            <div class="section-text-container" style="text-align:center;">
+              <div class="secondary-title-main">
+                NICE TO MEET YOU
+              </div>
+              <div class="secondary-title-sub">
+                We connect the right customer with the right business at the
+                right time.
+              </div>
+              <div class="secondary-sub-container">
+                <div class="secondary-sub-detail">
+                  <p>People want to know how busy places are and to receive
+                  promotions in real-time. Businesses want to know their
+                  customer flow and send promotions in real-time. We create a
+                  win-win by sharing foot traffic information and connecting
+                  customers with businesses through a mobile app. People
+                  looking for a wild night out can find busy places. People
+                  looking for a place to talk and catch up can find chill
+                  locations. Businesses can send these people deals and alerts
+                  on the go – increasing their chances of customer conversion.
+                  Businesses can gauge the performance of their promotions by
+                  looking at changes in their customer flow over time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="section-opportunities section-join">
            <a class="section-anchor" href="#/careers"></a>
            <div class=" section-text center-y  section-text-title-black " style="text-align:center;">
                <div class="section-text-container " style="text-align:center;">
@@ -135,58 +164,77 @@ End Facebook Pixel Code
                </div>
            </div>
        </div> -->
-       <div class="about-press">
-           <div class="about-press-title title-underline-short center-x">PRESS</div>
-           <div class="about-press-articles-container center-x">
-               <div class="about-press-article-container">
-                   <div class="about-press-article-header">
-                       <img style="width:80px; height:40px;" src="https://d1e48a0mk7d7st.cloudfront.net/assets/TechCrunch@2X-c3e944be7631e411c4d67b8ad1938d2b.png" />
-                   </div>
-                   <div class="about-press-article-text">
-                       “This is valuable at a restaurant where waiting for the bill can be annoying, and even more important at crowded bars where placing orders and paying for them can take up much of the night.”
-                   </div>
-                   <div class="about-press-article-author">TechCrunch</div>
-               </div>
-               <div class="about-press-article-container">
-                   <div class="about-press-article-header">
-                       <img style="width:112px; height:45px;"  src="https://d1e48a0mk7d7st.cloudfront.net/assets/BusinessInsider@2X-fe53c007815c06f81f5059492709516d.png" />
-
-                   </div>
-                   <div class="about-press-article-text">
-                       “No matter how great it is to spend the night out, trying to push through everyone to close your tab and figuring out how to split the bill is always a nightmare. But Dash solves these problems.”
-                   </div>
-                   <div class="about-press-article-author">Business Insider</div>
-               </div>
-               <div class="about-press-article-container">
-                   <div class="about-press-article-header">
-                       <img style="width:133px; height:36px;" src="https://d1e48a0mk7d7st.cloudfront.net/assets/Eater@2X-49b0f00e40a297086012a7847692c154.png" />
-
-                   </div>
-                   <div class="about-press-article-text">
-                       “The app allows diners and bar-goers to pay for their bill without having to wait for a server to bring the check at a busy restaurant.”
-                   </div>
-                   <div class="about-press-article-author">Eater</div>
-               </div>
-               <div class="about-press-article-container">
-                   <div class="about-press-article-header">
-                       <img style="width:260px; height:40px;" src="https://d1e48a0mk7d7st.cloudfront.net/assets/WashingtonPost@2X-7586765d91a6c5dcef021dde73c58a9b.png" />
-
-                   </div>
-                   <div class="about-press-article-text">
-                       “I think customers and restaurants alike will appreciate the fact that technology has given us a totally respectable way to dine and Dash.”
-                   </div>
-                   <div class="about-press-article-author">Washington Post</div>
-               </div>
-           </div>
-       </div>
-       <script type="text/javascript">
+      <div class="about-press">
+        <div class="about-press-title title-underline-short center-x">
+          PRESS
+        </div>
+        <div class="about-press-articles-container center-x">
+          <div class="about-press-article-container">
+            <div class="about-press-article-header"><img src=
+            "https://d1e48a0mk7d7st.cloudfront.net/assets/TechCrunch@2X-c3e944be7631e411c4d67b8ad1938d2b.png"
+            style="width:80px; height:40px;">
+            </div>
+            <div class="about-press-article-text">
+              “This is valuable at a restaurant where waiting for the bill can
+              be annoying, and even more important at crowded bars where
+              placing orders and paying for them can take up much of the
+              night.”
+            </div>
+            <div class="about-press-article-author">
+              TechCrunch
+            </div>
+          </div>
+          <div class="about-press-article-container">
+            <div class="about-press-article-header"><img src=
+            "https://d1e48a0mk7d7st.cloudfront.net/assets/BusinessInsider@2X-fe53c007815c06f81f5059492709516d.png"
+            style="width:112px; height:45px;">
+            </div>
+            <div class="about-press-article-text">
+              “No matter how great it is to spend the night out, trying to push
+              through everyone to close your tab and figuring out how to split
+              the bill is always a nightmare. But Dash solves these problems.”
+            </div>
+            <div class="about-press-article-author">
+              Business Insider
+            </div>
+          </div>
+          <div class="about-press-article-container">
+            <div class="about-press-article-header"><img src=
+            "https://d1e48a0mk7d7st.cloudfront.net/assets/Eater@2X-49b0f00e40a297086012a7847692c154.png"
+            style="width:133px; height:36px;">
+            </div>
+            <div class="about-press-article-text">
+              “The app allows diners and bar-goers to pay for their bill
+              without having to wait for a server to bring the check at a busy
+              restaurant.”
+            </div>
+            <div class="about-press-article-author">
+              Eater
+            </div>
+          </div>
+          <div class="about-press-article-container">
+            <div class="about-press-article-header"><img src=
+            "https://d1e48a0mk7d7st.cloudfront.net/assets/WashingtonPost@2X-7586765d91a6c5dcef021dde73c58a9b.png"
+            style="width:260px; height:40px;">
+            </div>
+            <div class="about-press-article-text">
+              “I think customers and restaurants alike will appreciate the fact
+              that technology has given us a totally respectable way to dine
+              and Dash.”
+            </div>
+            <div class="about-press-article-author">
+              Washington Post
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
         Dash.initAll(null, null, $('#about_title_holder'));
-    </script>
-
+      </script>
     </div>
-  <footer >
-  <div id="footer" class="footer">
-      <!--   <div class="footer-apps-container">
+    <footer>
+      <div class="footer" id="footer">
+        <!--   <div class="footer-apps-container">
           <a href="https://itunes.apple.com/us/app/dash-pay-on-your-phone-at/id677495265" target="_blank"><div class="footer-app-icon footer-app-icon-apple"></div></a>
           <a href="https://play.google.com/store/apps/details?id=me.dashwith" target="_blank"><div class="footer-app-icon footer-app-icon-google"></div></a>
         </div>
@@ -194,20 +242,27 @@ End Facebook Pixel Code
             <a href="https://www.facebook.com/paywithdash" target="_blank"><div class="footer-icon footer-icon-facebook"></div></a>
             <a href="https://twitter.com/paywithdash" target="_blank"><div class="footer-icon footer-icon-twitter"></div></a>
             <a href="https://instagram.com/paywithdash/" target="_blank"><div class="footer-icon footer-icon-instagram"></div></a>
-        </div>   -->      
-          <ul class="footer-links-container">
-            <li class="footer-link"><a href="/about">ABOUT</a></li>
-            <li class="footer-circle"></li>
-            <li class="footer-link"><a href="/contact">CONTACT</a></li>
-            <li class="footer-circle"></li>
-            <li class="footer-link"><a href="/privacy">PRIVACY POLICY</a></li>
-            <!-- <li class="footer-circle"></li>
-            <li class="footer-link"><a href="/team">OUR TEAM</a></li> -->
-          </ul>
-    </div>
-</footer>
+        </div>   -->
 
+        <ul class="footer-links-container">
+          <li class="footer-link">
+            <a href="/about">ABOUT</a>
+          </li>
+          <li class="footer-circle">
+          </li>
+          <li class="footer-link">
+            <a href="/contact">CONTACT</a>
+          </li>
+          <li class="footer-circle">
+          </li>
+          <li class="footer-link">
+            <a href="/privacy">PRIVACY POLICY</a>
+          </li>
+          <!-- <li class="footer-circle"></li>
+            <li class="footer-link"><a href="/team">OUR TEAM</a></li> -->
+        </ul>
+      </div>
+    </footer>
   </div>
 </body>
-  
 </html>
