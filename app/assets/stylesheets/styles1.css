@@ -43,7 +43,8 @@ body {
 }
 
 .nav-button[data-nav-active],
-.side-nav-button[data-nav-active] {
+.side-nav-button[data-nav-active],
+.footer [data-nav-active] {
     color: #00c484
 }
 
