@@ -1,49 +1,49 @@
-.about-title-main {
+/*.about-title-main {
     font-family: "museo-sans-rounded";
     font-weight: 100;
     font-size: 72px
 }
-
-.about-sub {
+*/
+/*.about-sub {
     font-family: "museo-sans-rounded";
     font-weight: 300;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0px 20px
-}
+}*/
 
-.about-title-sub {
+/*.about-title-sub {
     font-size: 26px;
     padding: 20px;
     padding-bottom: 50px
-}
+}*/
 
-.about-sub-detail {
+/*.about-sub-detail {
     font-family: "museo-sans-rounded";
     font-weight: 100;
     line-height: 28px;
     font-size: 18px;
     padding-bottom: 20px;
     padding-top: 20px
-}
+}*/
 
-.about-careers-title {
+/*.about-careers-title {
     font-family: "museo-sans-rounded";
     font-weight: 100;
     font-size: 60px;
     padding-bottom: 40px
-}
+}*/
 
 .about-press {
     background: #ededed;
     color: #ffffff
 }
 
-.view-opportunities {
+/*.view-opportunities {
     width: 308px;
     height: 55px;
     line-height: 55px
-}
+}*/
 
 .about-press-title {
     font-family: "museo-sans-rounded";
@@ -96,45 +96,45 @@
     content: '-'
 }
 
-@media only screen and (min-width: 861px) {
+/*@media only screen and (min-width: 861px) {
     .about-sub {
         width: 810px
     }
-}
+}*/
 
 @media only screen and (max-width: 860px) {
     #about_title_holder {
         margin-top: 50px
     }
-    .about-title-main {
+   /* .about-title-main {
         font-family: "museo-sans-rounded";
         font-weight: 100;
         font-size: 32px;
         padding-bottom: 50px
-    }
-    .about-sub {
+    }*/
+    /*.about-sub {
         margin: 0px 20px;
         text-align: justify
-    }
-    .about-sub-detail {
+    }*/
+    /*.about-sub-detail {
         font-family: "museo-sans-rounded";
         font-weight: 100;
         line-height: 24px;
         font-size: 16px;
         padding-bottom: 20px;
         padding-top: 20px
-    }
-    .about-careers-title {
+    }*/
+   /* .about-careers-title {
         font-family: "museo-sans-rounded";
         font-weight: 100;
         font-size: 40px;
         padding-bottom: 40px
-    }
-    .view-opportunities {
+    }*/
+    /*.view-opportunities {
         width: 90%;
         height: 55px;
         line-height: 55px
-    }
+    }*/
     .about-press-articles-container {
         width: 100%
     }

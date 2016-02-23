@@ -1,9 +1,9 @@
-.confirmation-title-main {
+/*.confirmation-title-main {
     font-family: "museo-sans-rounded";
     font-weight: 100;
     font-size: 72px;
     padding-bottom: 50px
-}
+}*/
 
 .confirmation-sub {
     font-family: "museo-sans-rounded";
@@ -27,9 +27,9 @@
     padding-top: 20px
 }
 
-.confirmation-icons-container .download-icon {
+/*.confirmation-icons-container .download-icon {
     margin-left: 0px
-}
+}*/
 
 /*a {
     color: #00c484

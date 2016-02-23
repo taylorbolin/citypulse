@@ -11,12 +11,12 @@
     line-height: 26px
 }
 
-.tos-container h2 {
+/*.tos-container h2 {
     color: #00c484;
     font-family: "museo-sans-rounded";
     font-weight: 100;
     font-size: 22px
-}
+}*/
 
 .tos-container h2 {
     color: #00c484;
@@ -26,11 +26,11 @@
     line-height: 22px
 }
 
-.tos-container h6 {
+/*.tos-container h6 {
     font-size: 18px;
     line-height: 18px;
     margin: 0px
-}
+}*/
 
 .tos-container a {
     color: #00c484
